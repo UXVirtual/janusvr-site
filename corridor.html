@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Corridor | HAZARD Team Space</title>
+</head>
+<body>
+
+<FireBoxRoom>
+    <Assets>
+        <AssetImage id="sky_left" src="img/skyboxes/space-left.jpg" />
+        <AssetImage id="sky_right" src="img/skyboxes/space-right.jpg" />
+        <AssetImage id="sky_front" src="img/skyboxes/space-front.jpg" />
+        <AssetImage id="sky_back" src="img/skyboxes/space-back.jpg" />
+        <AssetImage id="sky_up" src="img/skyboxes/space-up.jpg" />
+        <AssetImage id="sky_down" src="img/skyboxes/space-down.jpg" />
+        <AssetImage id="vid_img" src="img/video-previews/official-destiny-live-action-trailer-become-legend.png" tex_clamp="true" />
+        <!--<AssetObject id="gazebo_obj" src="obj/GAZEBOobj.obj" tex_clamp="false"/>-->
+        <AssetObject id="space-wall" src="obj/Wall_B_straight.obj" tex_clamp="false"/>
+
+        <!--<AssetVideo id="vid_id" src="mp4/official-destiny-live-action-trailer-become-legend.mp4" thumb_id="vid_img" autoplay="true" loop="true" />-->
+        <AssetSound id="bg-audio" src="mp3/destiny-space-ambient-loop.mp3" />
+    </Assets>
+    <Room pos="10 0 -5" xdir="0 0 1" ydir="0 1 0" zdir="-1 0 0" scale="10 4 1" skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_front_id="sky_front" skybox_back_id="sky_back" skybox_up_id="sky_up" skybox_down_id="sky_down" walk_speed="5.0" run_speed="10.0" use_local_asset="room_2pedestal" col="1 1 1" >
+        <Object id="space-wall" pos="-81.9 0.1 -5" xdir="1 0 0" ydir="0 1 0" zdir="0 0 1" scale="1 0.45 0.8" col="0.8 0.8 0.8" />
+        <!--<Object id="gazebo_obj" pos="-3.7 10.5 -14.1" scale="0.1 0.1 0.1" xdir="0.87 0 -0.5" ydir="0 1 0" zdir="0.5 0 0.87"/>-->
+        <!--<Video id="vid_id" pos="0 2 -5" fwd="0 0 1" />-->
+        <Sound id="bg-audio" rect="-100 -50 100 50" loop="true" />
+
+
+    </Room>
+</FireBoxRoom>
+
+</body>
+</html>
+
+

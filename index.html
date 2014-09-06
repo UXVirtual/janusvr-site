@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Home | HAZARD Team Space</title>
+</head>
+<body>
+
+    <FireBoxRoom>
+        <Assets>
+            <AssetImage id="sky_left" src="img/skyboxes/space-left.jpg" />
+            <AssetImage id="sky_right" src="img/skyboxes/space-right.jpg" />
+            <AssetImage id="sky_front" src="img/skyboxes/space-front.jpg" />
+            <AssetImage id="sky_back" src="img/skyboxes/space-back.jpg" />
+            <AssetImage id="sky_up" src="img/skyboxes/space-up.jpg" />
+            <AssetImage id="sky_down" src="img/skyboxes/space-down.jpg" />
+            <AssetImage id="vid_img" src="img/video-previews/official-destiny-live-action-trailer-become-legend.png" tex_clamp="true" />
+
+            <AssetImage id="gun-machine" src="img/gun-vanguard-machine-gun.png" tex_clamp="true" />
+            <!--<AssetVideo id="vid_id" src="mp4/official-destiny-live-action-trailer-become-legend.mp4" thumb_id="vid_img" autoplay="true" loop="true" />-->
+            <AssetSound id="bg-audio" src="mp3/destiny-space-ambient-loop.mp3" />
+            <AssetSound id="bg-audio2" src="mp3/ambient-mars-loop.mp3" />
+            <AssetObject id="space-wall" src="obj/Wall_B_straight.obj" tex_clamp="false"/>
+        </Assets>
+        <Room skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_front_id="sky_front" skybox_back_id="sky_back" skybox_up_id="sky_up" skybox_down_id="sky_down" gravity="-3.0" jump_velocity="10.0" walk_speed="5.0" run_speed="10.0" use_local_asset="room1" col="0.34 0.81 1" pos="10 -0.1 5.05" fwd="0 0 -1">
+
+
+            <!--<Video id="vid_id" pos="0 2 -5" fwd="0 0 1" />-->
+            <Sound id="bg-audio2" rect="-100 -50 100 50" loop="true" />
+            <Image id="gun-machine" xdir="-1 0 0" ydir="0 1 0" zdir="0 0 -1" pos="11 0.3 -4.7"/>
+            <!--<Object id="space-wall" pos="-81.9 0.1 -5" xdir="0 1 0" ydir="0 1 0" zdir="0 0 1" scale="1 0.45 0.8" col="0.8 0.8 0.8" />-->
+            <Link pos="0 -0.1 20" xdir="-1 0 0" ydir="0 1 0" zdir="0 0 -1" scale="9.6 3.9 1" fwd="0 0 -1" url="corridor.html" col="1 1 1" title="Interior Corridor" draw_glow="false" draw_text="false" auto_load="true" />
+            <Text pos="9.9 1.5 -5" xdir="1 0 -0.03" ydir="0 1 0.01" zdir="-0.03 -0.01 1" scale="4 4 4" col="1 1 1">HAZARD Team Space</Text>
+        </Room>
+    </FireBoxRoom>
+
+</body>
+</html>
+
+
