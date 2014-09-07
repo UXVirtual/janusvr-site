@@ -3,7 +3,8 @@
     <title>Home | HAZARD Team Space</title>
 </head>
 <body>
-
+    <!-- the JS engine that JanusVR uses is QtScript (http://en.wikipedia.org/wiki/QtScript) -->
+    <!-- JamesMcCrae is the developer of JanusVR -->
     <FireBoxRoom>
         <Assets>
             <AssetImage id="sky_left" src="img/skyboxes/space-left.jpg" />
@@ -13,22 +14,25 @@
             <AssetImage id="sky_up" src="img/skyboxes/space-up.jpg" />
             <AssetImage id="sky_down" src="img/skyboxes/space-down.jpg" />
             <AssetImage id="vid_img" src="img/video-previews/official-destiny-live-action-trailer-become-legend.png" tex_clamp="true" />
-
-            <AssetImage id="gun-machine" src="img/gun-vanguard-machine-gun.png" tex_clamp="true" />
+            <AssetImage id="destiny-logo" src="img/logo-destiny.png" />
+            <AssetObject id="scifi-pillar" src="obj/pillar_high.obj" mtl="mtl/pillar_high.mtl" tex_clamp="false"/>
             <!--<AssetVideo id="vid_id" src="mp4/official-destiny-live-action-trailer-become-legend.mp4" thumb_id="vid_img" autoplay="true" loop="true" />-->
             <AssetSound id="bg-audio" src="mp3/destiny-space-ambient-loop.mp3" />
             <AssetSound id="bg-audio2" src="mp3/ambient-mars-loop.mp3" />
             <AssetObject id="space-wall" src="obj/Wall_B_straight.obj" tex_clamp="false"/>
         </Assets>
-        <Room skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_front_id="sky_front" skybox_back_id="sky_back" skybox_up_id="sky_up" skybox_down_id="sky_down" gravity="-3.0" jump_velocity="10.0" walk_speed="5.0" run_speed="10.0" use_local_asset="room1" col="0.34 0.81 1" pos="10 -0.1 5.05" fwd="0 0 -1">
+        <Room skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_front_id="sky_front" skybox_back_id="sky_back" skybox_up_id="sky_up" skybox_down_id="sky_down" gravity="-3.0" jump_velocity="10.0" walk_speed="5.0" run_speed="10.0" use_local_asset="room1" col="0.34 0.81 1" pos="0.5 -0.1 5.1" xdir="1 0 0" ydir="0 1 0" zdir="0 0 1">
 
 
             <!--<Video id="vid_id" pos="0 2 -5" fwd="0 0 1" />-->
             <Sound id="bg-audio2" rect="-100 -50 100 50" loop="true" />
-            <Image id="gun-machine" xdir="-1 0 0" ydir="0 1 0" zdir="0 0 -1" pos="11 0.3 -4.7"/>
-            <!--<Object id="space-wall" pos="-81.9 0.1 -5" xdir="0 1 0" ydir="0 1 0" zdir="0 0 1" scale="1 0.45 0.8" col="0.8 0.8 0.8" />-->
-            <Link pos="0 -0.1 20" xdir="-1 0 0" ydir="0 1 0" zdir="0 0 -1" scale="9.6 3.9 1" fwd="0 0 -1" url="corridor.html" col="1 1 1" title="Interior Corridor" draw_glow="false" draw_text="false" auto_load="true" />
-            <Text pos="9.9 1.5 -5" xdir="1 0 -0.03" ydir="0 1 0.01" zdir="-0.03 -0.01 1" scale="4 4 4" col="1 1 1">HAZARD Team Space</Text>
+            <Object id="scifi-pillar" pos="-10 7.1 6.1" xdir="1 0 0" ydir="0 0 -1" zdir="0 1 0" scale="1 1 1" col="0.34 0.81 1" />
+            <Object id="scifi-pillar" pos="10 7.1 6.1" xdir="1 0 0" ydir="0 0 -1" zdir="0 1 0" scale="1 1 1" col="0.34 0.81 1" />
+            <Object id="scifi-pillar" pos="10 7.1 -6.1" xdir="-1 0 0" ydir="0 0 1" zdir="0 1 0" scale="1 1 1" col="0.34 0.81 1" />
+            <Object id="scifi-pillar" pos="-10 7.1 -6.1" xdir="-1 0 0" ydir="0 0 1" zdir="0 1 0" scale="1 1 1" col="0.34 0.81 1" />
+
+            <Link pos="0 -0.1 20.09" xdir="-1 0 0" ydir="0 1 0" zdir="0 0 -1" scale="9.4 3.9 1" fwd="0 0 -1" url="corridor.html" col="1 1 1" title="Interior Corridor" draw_glow="false" draw_text="false" auto_load="true" />
+            <!--<Text pos="9.9 1.5 -5" xdir="1 0 -0.03" ydir="0 1 0.01" zdir="-0.03 -0.01 1" scale="4 4 4" col="1 1 1">HAZARD Team Space</Text>-->
         </Room>
     </FireBoxRoom>
 
