@@ -1,0 +1,40 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl oni_interior_elevator_shaft1_dif
+Ka 0.000000 0.000000 0.000000
+Kd 0.345098 0.352941 0.345098
+Ks 0.330000 0.330000 0.330000
+map_Kd future-doorway/oni_interior_elevator_shaft1_dif.jpg
+
+newmtl _1
+Ka 0.000000 0.000000 0.000000
+Kd 0.301961 0.305882 0.301961
+Ks 0.330000 0.330000 0.330000
+map_Kd future-doorway/_1.jpg
+
+newmtl _1_1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.301961 0.305882 0.301961
+Ks 0.330000 0.330000 0.330000
+map_Kd future-doorway/_1_1_.jpg
+
+newmtl _1_2_
+Ka 0.000000 0.000000 0.000000
+Kd 0.301961 0.305882 0.301961
+Ks 0.330000 0.330000 0.330000
+map_Kd future-doorway/_1_2_.jpg
+
+newmtl _1_3_
+Ka 0.000000 0.000000 0.000000
+Kd 0.301961 0.305882 0.301961
+Ks 0.330000 0.330000 0.330000
+map_Kd future-doorway/_1_3_.jpg
+
+newmtl _1_4_
+Ka 0.000000 0.000000 0.000000
+Kd 0.301961 0.305882 0.301961
+Ks 0.330000 0.330000 0.330000
+map_Kd future-doorway/_1_4_.jpg
+

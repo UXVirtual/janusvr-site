@@ -1,0 +1,33 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl _2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+d 0.000000
+
+newmtl _1
+Ka 0.000000 0.000000 0.000000
+Kd 0.294118 0.294118 0.294118
+Ks 0.330000 0.330000 0.330000
+map_Kd future-sign/_1.jpg
+
+newmtl _Charcoal_
+Ka 0.000000 0.000000 0.000000
+Kd 0.137255 0.137255 0.137255
+Ks 0.330000 0.330000 0.330000
+
+newmtl panel_meter_dif
+Ka 0.000000 0.000000 0.000000
+Kd 0.262745 0.313725 0.262745
+Ks 0.330000 0.330000 0.330000
+map_Kd future-sign/panel_meter_dif.tif
+
+newmtl _4
+Ka 0.000000 0.000000 0.000000
+Kd 0.647059 0.392157 0.011765
+Ks 0.330000 0.330000 0.330000
+map_Kd future-sign/_4.tif
+

@@ -1,0 +1,22 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl _1
+Ka 0.000000 0.000000 0.000000
+Kd 0.215686 0.227451 0.227451
+Ks 0.330000 0.330000 0.330000
+map_Kd ac-unit/_1.jpg
+
+newmtl _2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+d 0.000000
+
+newmtl _3
+Ka 0.000000 0.000000 0.000000
+Kd 0.160784 0.160784 0.160784
+Ks 0.330000 0.330000 0.330000
+map_Kd ac-unit/_3.tif
+

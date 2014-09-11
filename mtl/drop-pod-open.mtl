@@ -1,0 +1,33 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl gradient_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.498039 0.000000 0.019608
+Ks 0.330000 0.330000 0.330000
+map_Kd drop-pod-open/gradient_1.jpg
+
+newmtl _2
+Ka 0.000000 0.000000 0.000000
+Kd 0.580392 0.568627 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd drop-pod-open/_2.jpg
+
+newmtl Blinds_Roman_Hobbled_Blue
+Ka 0.000000 0.000000 0.000000
+Kd 0.278431 0.282353 0.298039
+Ks 0.330000 0.330000 0.330000
+map_Kd drop-pod-open/Blinds_Roman_Hobbled_Blue.jpg
+
+newmtl Color_000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _4
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.780392 0.764706
+Ks 0.330000 0.330000 0.330000
+map_Kd drop-pod-open/_4.jpg
+

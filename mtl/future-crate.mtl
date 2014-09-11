@@ -1,0 +1,21 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl M_96_96_96
+Ka 0.000000 0.000000 0.000000
+Kd 0.235294 0.235294 0.133333
+Ks 0.330000 0.330000 0.330000
+map_Kd future-crate/M_96_96_96.jpg
+
+newmtl M_0135_DarkGray
+Ka 0.000000 0.000000 0.000000
+Kd 0.415686 0.419608 0.400000
+Ks 0.330000 0.330000 0.330000
+map_Kd future-crate/M_0135_DarkGray.jpg
+
+newmtl _1
+Ka 0.000000 0.000000 0.000000
+Kd 0.854902 0.219608 0.423529
+Ks 0.330000 0.330000 0.330000
+
