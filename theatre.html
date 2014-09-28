@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Theatre | uxVirtual</title>
+</head>
+<body>
+
+<FireBoxRoom>
+    <Assets>
+        <AssetScript src="js/theatre.js" />
+        <AssetObject id="scene" src="obj/movie-room.obj" tex_clamp="false"/>
+        <AssetObject id="chair" src="obj/chair.obj" tex_clamp="false"/>
+        <AssetObject id="logo-uxvirtual" src="obj/logo-uxvirtual.obj" tex_clamp="false"/>
+        <AssetWebSurface src="http://www.bungie.net/" id="webpage" width="800" height="400" />
+        <AssetObject id="screen" src="obj/16x9.obj"  />
+
+    </Assets>
+    <Room near_dist="0.010" far_dist="100000.000" default_sounds="false" skybox_left_id="" skybox_right_id="" skybox_front_id="" skybox_back_id="" skybox_up_id="" skybox_down_id="" walk_speed="5.0" run_speed="10.0" use_local_asset="">
+
+
+
+        <Object id="logo-uxvirtual" pos="-0.6 1.5 3.6" xdir="-1 0 0" ydir="0 1 0" zdir="0 0 -1" scale="4 4 20" col="1 1 1" />
+
+        <Object id="scene" collision_id="scene" pos="0.8 -2 7.6" scale="1 1 1" col="1 1 1" />
+        <Object id="chair" collision_id="chair" pos="-0.4 0 3.8" scale="1 1 1" col="1 1 1" />
+        <Object id="screen" collision_id="screen" pos="0 0.74 5.09" xdir="-1 0 0" ydir="0 0.99 0.1" zdir="0 0.1 -0.99" scale="0.370 0.370 1" col="1 1 1" websurface_id="webpage" />
+
+
+        <Object id="map" pos="0 0 0" scale="3000 3000 3000" rotate_axis="0.000 1.000 0.000" rotate_deg_per_sec="1.000" locked="true" />
+
+
+        </Room>
+</FireBoxRoom>
+</FireBoxRoom>
+
+</body>
+</html>
+
+

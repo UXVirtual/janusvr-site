@@ -1,6 +1,7 @@
 <html>
 <head>
     <title>Home | uxVirtual</title>
+    <meta property="og:image" content="http://www.uxvirtual.com/img/screenshot.jpg" />
 </head>
 <body>
 
@@ -20,33 +21,47 @@
             the Destiny game for next gen and current gen game consoles.</li>
         </ul>
 
+        <img src="img/screenshot.jpg" alt="Screenshot of Home room" width="300" height="300" />
+
+
     </article>
 
     <FireBoxRoom>
         <Assets>
-            <AssetImage id="sky_left" src="img/skyboxes/space-left.jpg" />
-            <AssetImage id="sky_right" src="img/skyboxes/space-right.jpg" />
-            <AssetImage id="sky_front" src="img/skyboxes/space-front.jpg" />
-            <AssetImage id="sky_back" src="img/skyboxes/space-back.jpg" />
-            <AssetImage id="sky_up" src="img/skyboxes/space-up.jpg" />
-            <AssetImage id="sky_down" src="img/skyboxes/space-down.jpg" />
+
             <AssetImage id="vid_img" src="img/video-previews/official-destiny-live-action-trailer-become-legend.png" tex_clamp="true" />
             <AssetImage id="destiny-logo" src="img/logo-destiny.png" />
             <!--<AssetObject id="scifi-pillar" src="obj/pillar_high.obj" mtl="mtl/pillar_high.mtl" tex_clamp="false"/>-->
             <!--<AssetVideo id="vid_id" src="mp4/official-destiny-live-action-trailer-become-legend.mp4" thumb_id="vid_img" autoplay="true" loop="true" />-->
-            <AssetSound id="bg-audio" src="mp3/destiny-space-ambient-loop.mp3" />
-            <AssetSound id="bg-audio2" src="mp3/ambient-mars-loop.mp3" />
+
+            <!--<AssetSound id="bg-audio2" src="http://stream.trance.pulsradio.com:9000" />-->
+
+            <AssetSound id="bg-audio2" src="http://ice.somafm.com/dronezone" />
+
+
             <AssetObject id="space-wall" src="obj/Wall_B_straight.obj" tex_clamp="false"/>
             <AssetObject id="logo-uxvirtual" src="obj/logo-uxvirtual.obj" tex_clamp="false"/>
             <AssetObject id="drop-pod-open" src="obj/drop-pod-open.obj" tex_clamp="false"/>
-            <AssetObject id="drop-pod-closed" src="obj/drop-pod-closed.obj" tex_clamp="false"/>
-            <AssetObject id="platform-large" src="obj/platform-large.obj" mtl="mtl/platform-large.mtl" tex_clamp="false"/>
-            <AssetObject id="platform-xxlarge" src="obj/platform-xxlarge.obj" mtl="mtl/platform-xxlarge.mtl" tex_clamp="false"/>
+
+            <AssetObject id="eve-winau-destroyer" src="obj/eve-winau-destroyer.obj" mtl="mtl/eve-winau-destroyer.mtl" tex_clamp="false"/>
+
+            <AssetImage id="soma-fm-banner" src="http://somafm.com/linktous/450x25sfm1.gif" />
+
+            <AssetImage id="counter2" src="http://s11.flagcounter.com/count/Pxd8/bg_000000/txt_00CCFF/border_000000/columns_8/maxflags_24/viewers_0/labels_1/pageviews_0/flags_0/" />
+
+            <AssetObject id="map" src="obj/YROUND.obj" tex="img/sky_twighlight.jpg"/>
+
+            <AssetObject id="arcade-tempest" src="obj/arcade-tempest.obj" mtl="mtl/arcade-tempest.mtl"/>
+
+            <AssetImage id="counter" src="http://s11.flagcounter.com/map/yneb/size_l/txt_BDBDBD/border_FFFFFF/pageviews_1/viewers_3/flags_0/" />
+
+            <!--<AssetVideo id="tempest-video" src="mp4/tempest-crop.mp4" />-->
+
+            <!--<AssetWebSurface src="http://www.youtube.com/embed/AMto2HJJSSA" id="tempest-video" width="240" height="180" />-->
+
             <AssetObject id="door" src="obj/door.obj" mtl="mtl/door.mtl" tex_clamp="false"/>
-            <AssetObject id="platform-ramped" src="obj/platform-ramped.obj" mtl="mtl/platform-ramped.mtl" tex_clamp="false"/>
-            <AssetObject id="tower-tall" src="obj/tower-tall.obj" mtl="mtl/tower-tall.mtl" tex_clamp="false"/>
         </Assets>
-        <Room default_sounds="false" skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_front_id="sky_front" skybox_back_id="sky_back" skybox_up_id="sky_up" skybox_down_id="sky_down" gravity="-3.0" jump_velocity="10.0" walk_speed="5.0" run_speed="10.0" use_local_asset="room1" col="0.34 0.81 1" pos="1.2 0.6 1.3" xdir="1 0 -0.26" ydir="0 1 0" zdir="0.26 0 1">
+        <Room near_dist="0.010" far_dist="100000.000" default_sounds="false" skybox_left_id="" skybox_right_id="" skybox_front_id="" skybox_back_id="" skybox_up_id="" skybox_down_id="" gravity="-3.0" jump_velocity="10.0" walk_speed="5.0" run_speed="10.0" use_local_asset="room1" col="0.1 0.1 0.1" pos="1.2 0.6 1.3" xdir="1 0 -0.26" ydir="0 1 0" zdir="0.26 0 1">
 
 
             <!--<Video id="vid_id" pos="0 2 -5" fwd="0 0 1" />-->
@@ -57,17 +72,34 @@
             <Object id="scifi-pillar" pos="10 7.1 -6.1" xdir="-1 0 0" ydir="0 0 1" zdir="0 1 0" scale="1 1 1" col="0.34 0.81 1" />
             <Object id="scifi-pillar" pos="-10 7.1 -6.1" xdir="-1 0 0" ydir="0 0 1" zdir="0 1 0" scale="1 1 1" col="0.34 0.81 1" />-->
             <Object id="drop-pod-open" collision_id="drop-pod-open" pos="0 0 0" col="0.34 0.81 1" scale="0.8 0.8 0.8" />
+            <Object id="eve-winau-destroyer" pos="0 9 55" scale="10 10 10" />
             <!--<Object id="platform-large" collision_id="platform-large" pos="0 0 0" col="0.34 0.81 1" scale="1 1 1" />-->
-            <Object id="platform-xxlarge" collision_id="platform-xxlarge" pos="20.3 0 2.7" scale="1.2 1.2 1.2" col="0.34 0.81 1" />
-            <Object id="tower-tall" collision_id="tower-tall" pos="-5 0 0" scale="1.2 1.2 1.2" col="0.34 0.81 1" />
 
-            <Object id="door" collision_id="door" pos="-5 0 0" scale="1.2 1.2 1.2" col="0.34 0.81 1" />
+            <!--<Object id="screen" collision_id="screen" pos="0 0 10" scale="1 1 1" col="1 1 1" websurface_id="tempest-video" />-->
 
-            <Object id="platform-ramped" collision_id="platform-ramped" pos="13.7 0 -2.2" xdir="0 0 1" ydir="0 1 0" zdir="-1 0 0" scale="1.2 1.2 1.2" col="0.34 0.81 1" />
+
+            <Image id="soma-fm-banner" pos="-9.9 1.6 -5" xdir="1 0 0" ydir="0 1 0" zdir="0 0 1" scale="4.3 4.3 1"/>
+
+            <Image id="counter" pos="-10 0.7 5" xdir="-1 0 0" ydir="0 1 0" zdir="0 0 -1" scale="4.620 4.8 1"/>
+
+            <Image id="counter2" pos="-10 2.6 4.9" xdir="-1 0 0" ydir="0 1 0" zdir="0 0 -1" scale="4.6 4.6 1"/>
+
+            <Object id="door" collision_id="door" pos="-6.2 -1.91 20" scale="6.4 3.5 1" col="0.34 0.81 1" />
+
+            <Object id="arcade-tempest" collision_id="arcade-tempest" pos="2.7 -1.3 -7.2" scale="1 1 1" />
+
+            <Object id="map" pos="0 0 0" scale="3000 3000 3000" rotate_axis="0.000 1.000 0.000" rotate_deg_per_sec="0.5" locked="true" />
+
+            <!--<Video id="tempest-video" pos="5.960 1.180 -4.4" xdir="-1 0 0" ydir="0 1 -0.12" zdir="0 0.12 1" scale="0.25 0.25 0.25" auto_load="true" loop="true" />-->
 
             <!--<Object id="drop-pod-closed" collision_id="drop-pod-closed" pos="0 0 10" col="0.34 0.81 1" scale="0.8 0.8 0.8" />-->
 
             <Link pos="0 -0.1 20.09" xdir="-1 0 0" ydir="0 1 0" zdir="0 0 -1" scale="9.4 3.9 1" fwd="0 0 -1" url="corridor.html" col="1 1 1" title="Interior Corridor" draw_glow="false" draw_text="false" auto_load="true" />
+            <Link pos="5 0 10.2" xdir="0 0 1" ydir="0 1 0" zdir="-1 0 0" scale="1.8 2.6 1" url="theatre.html" col="1 1 1" title="Theatre" draw_glow="true" auto_load="false" />
+
+            <Link pos="5 -0.05 -9.5" xdir="0 0 1" ydir="0 1 0" zdir="-1 0 0" scale="5.9 8.8 1" url="termina-field.html" col="1 1 1" title="Termina Field" draw_glow="true" auto_load="false" />
+
+
             <!--<Text pos="9.9 1.5 -5" xdir="1 0 -0.03" ydir="0 1 0.01" zdir="-0.03 -0.01 1" scale="4 4 4" col="1 1 1">HAZARD Team Space</Text>-->
         </Room>
     </FireBoxRoom>
