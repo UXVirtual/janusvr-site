@@ -7,12 +7,15 @@
 <FireBoxRoom>
     <Assets>
         <AssetSound id="bg-audio" src="mp3/termina-field.mp3" />
-        <AssetObject id="scene" src="obj/termina-field.obj" mtl="mtl/termina-field.mtl" tex_clamp="false"/>
-
+        <AssetObject id="scene" src="obj/termina-field.obj" mtl="http://www.uxvirtual.com/mtl/termina-field.mtl" tex_clamp="false"/>
+        <AssetObject id="zora-link" src="obj/zora-link.obj" mtl="http://www.uxvirtual.com/mtl/zora-link.mtl" tex_clamp="false"/>
+        <AssetGhost id="zora-link-ghost" src="http://www.uxvirtual.com/ghosts/zora-link.txt" />
     </Assets>
     <Room pos="-65 -7.6 -10.8" xdir="0 0 -1" ydir="0 1 0" zdir="-1 0 0" scale="1 1 1" default_sounds="false" walk_speed="5.0" run_speed="10.0" use_local_asset="">
-        <Sound id="bg-audio" rect="-100 -50 100 50" loop="true" />
-        <Object id="scene" collision_id="scene" pos="0 0 0" scale="1 1 1" col="1 1 1" />
+        <!--<Sound id="bg-audio" rect="-100 -50 100 50" loop="true" />-->
+        <Object id="scene" collision_id="scene" pos="0 0 0" scale="1 1 1" locked="true" />
+        <!--<Object id="zora-link" pos="-77.4 -8 -11.2" xdir="1 0 0" ydir="0 1 0" zdir="0 0 1" scale="0.018 0.018 0.018" collision_id="zora-link" />-->
+        <Ghost id="zora-link-ghost" head_pos="0 1 0" head_id="" body_id="zora-link"  scale="0.018 0.018 0.018" />
     </Room>
 </FireBoxRoom>
 </FireBoxRoom>
