@@ -7,19 +7,23 @@
 <FireBoxRoom>
     <Assets>
         <AssetSound id="bg-audio" src="mp3/termina-field.mp3" />
-        <AssetObject id="scene" src="obj/termina-field.obj" mtl="http://www.uxvirtual.com/mtl/termina-field.mtl" tex_clamp="false"/>
-        <AssetObject id="zora-link" src="obj/zora-link.obj" mtl="http://www.uxvirtual.com/mtl/zora-link.mtl" tex_clamp="false"/>
-        <AssetGhost id="zora-link-ghost" src="http://www.uxvirtual.com/ghosts/zora-link.txt" />
+        <AssetObject id="scene" src="obj/termina-field.obj" mtl="mtl/termina-field.mtl" tex_clamp="false"/>
+        <AssetObject id="zora-link" src="http://www.uxvirtual.com/obj/zora-link-torso.obj" mtl="http://www.uxvirtual.com/mtl/zora-link-torso.mtl" tex_clamp="false"/>
+        <AssetObject id="zora-link-head" src="http://www.uxvirtual.com/obj/zora-link-head.obj" mtl="http://www.uxvirtual.com/mtl/zora-link-head.mtl" tex_clamp="false"/>
+        <AssetObject id="moon-child" src="http://www.uxvirtual.com/obj/moon-child.obj" mtl="http://www.uxvirtual.com/mtl/moon-child.mtl" tex_clamp="false"/>
+
+        <AssetGhost id="zora-link-ghost" src="ghosts/zora-link.txt" />
+        <AssetGhost id="moon-child" src="ghosts/moon-child.txt" />
     </Assets>
     <Room pos="-65 -7.6 -10.8" xdir="0 0 -1" ydir="0 1 0" zdir="-1 0 0" scale="1 1 1" default_sounds="false" walk_speed="5.0" run_speed="10.0" use_local_asset="">
         <!--<Sound id="bg-audio" rect="-100 -50 100 50" loop="true" />-->
         <Object id="scene" collision_id="scene" pos="0 0 0" scale="1 1 1" locked="true" />
-        <!--<Object id="zora-link" pos="-77.4 -8 -11.2" xdir="1 0 0" ydir="0 1 0" zdir="0 0 1" scale="0.018 0.018 0.018" collision_id="zora-link" />-->
-        <Ghost id="zora-link-ghost" head_pos="0 1 0" head_id="" body_id="zora-link"  scale="0.018 0.018 0.018" />
+
+        <!-- ghost positions are set in ghost file and cannot be set in the Ghost element -->
+        <Ghost id="zora-link-ghost" head_pos="0 1 0" head_id="zora-link-head" body_id="zora-link"  scale="1.4 1.4 1.4" />
+        <Ghost id="moon-child" head_pos="0 1 0" head_id="" body_id="moon-child"  scale="1.4 1.4 1.4" />
     </Room>
 </FireBoxRoom>
-</FireBoxRoom>
-
 </body>
 </html>
 

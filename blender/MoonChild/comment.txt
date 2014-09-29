@@ -1,0 +1,3 @@
+It's things like this that make me appreciate modern texturing techniques. There wasn't a single texture on these kids that I didn't have to correct for clamping.
+Oh well. At least they didn't have any facial textures for me to deal with.
+

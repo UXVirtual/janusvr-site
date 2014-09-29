@@ -1,0 +1,65 @@
+# Material file for MoonChild.obj
+
+newmtl mtl_06015D28
+	Ns 96
+	d 1
+	illum 2
+	Kd 0.64 0.64 0.64
+	Ks 0.25 0.25 0.25
+	Ka 0.0 0.0 0.0
+	map_Kd 06015D28.png
+
+newmtl mtl_06015E28
+	Ns 96
+	d 1
+	illum 2
+	Kd 0.64 0.64 0.64
+	Ks 0.25 0.25 0.25
+	Ka 0.0 0.0 0.0
+	map_Kd 06015E28.png
+
+newmtl mtl_06015E68
+	Ns 96
+	d 1
+	illum 2
+	Kd 0.64 0.64 0.64
+	Ks 0.25 0.25 0.25
+	Ka 0.0 0.0 0.0
+	map_Kd 06015E68.png
+
+newmtl mtl_06016068
+	Ns 96
+	d 1
+	illum 2
+	Kd 0.64 0.64 0.64
+	Ks 0.25 0.25 0.25
+	Ka 0.0 0.0 0.0
+	map_Kd 06016068.png
+
+newmtl mtl_060160E8
+	Ns 96
+	d 1
+	illum 2
+	Kd 0.64 0.64 0.64
+	Ks 0.25 0.25 0.25
+	Ka 0.0 0.0 0.0
+	map_Kd 060160E8.png
+
+newmtl mtl_06016128
+	Ns 96
+	d 1
+	illum 2
+	Kd 0.64 0.64 0.64
+	Ks 0.25 0.25 0.25
+	Ka 0.0 0.0 0.0
+	map_Kd 06016128.png
+
+newmtl mtl_060161A8
+	Ns 96
+	d 1
+	illum 2
+	Kd 0.64 0.64 0.64
+	Ks 0.25 0.25 0.25
+	Ka 0.0 0.0 0.0
+	map_Kd 060161A8.png
+
